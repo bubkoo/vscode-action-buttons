@@ -12,20 +12,20 @@
 
 ```json
 {
-  "actionButtons": {
-	"reloadButton": null,
-	"defaultColor": "white",
-	"useScripts": true,
-	"npmClient": "npm",
-	"monorepo": true,
-	"commands": [
-      {
-		"name": "command name",
-		"color": "#af565c",
-		"command": "cargo run ${file}",
-		"singleInstance": true
-	  }
-	]
-  }
+    "actionButtons": {
+      "reloadButton": null,
+      "defaultColor": "white",
+      "useScripts": true,
+      "npmClient": "npm",
+      "monorepo": true,
+      "commands": [
+        {
+          "name": "command name",
+          "color": "#af565c",
+          "command": "cargo run ${file}",
+          "singleInstance": true
+        }
+      ]
+    }
 }
 ```
