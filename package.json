@@ -3,7 +3,7 @@
   "displayName": "VSCode Action Buttons",
   "description": "A vscode plugin to append action buttons in the status bar.",
   "version": "0.1.0",
-  "publisher": "bubkoo",
+  "publisher": "bubkoo-wy",
   "engines": {
     "vscode": "^1.27.2"
   },
@@ -100,5 +100,7 @@
     "mocha": "^6.1.4",
     "typescript": "^2.0.3",
     "vscode": "^1.0.0"
-  }
+  },
+  "repository": "https://github.com/bubkoo/vscode-action-buttons.git",
+  "license": "MIT"
 }

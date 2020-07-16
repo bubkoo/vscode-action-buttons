@@ -3,10 +3,8 @@ import * as path from 'path'
 import * as vscode from 'vscode'
 import { ActionButton } from './types'
 
-export async function getPackageJson(
-  detectMonorepo: boolean
-): Promise<{ pkg: any; cwd: string } | null> {
-  return new Promise((resolve) => {
+export async function getPackageJson(detectMonorepo: boolean) {
+  return new Promise<{ pkg: any; cwd: string } | null>((resolve) => {
     try {
       const cwd = vscode.workspace.rootPath
 
